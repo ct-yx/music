@@ -1,0 +1,84 @@
+{
+  "title": "ctyx 的曲子",
+  "intro": "把旋律、曲谱和制作过程安静地留在这里。",
+  "repo": "ct-yx/music",
+  "license": "CC BY-NC 4.0",
+  "defaultLicense": "CC BY-NC 4.0",
+  "theme": {
+    "light": {
+      "page": "#f4f7f8",
+      "surface": "#ffffff",
+      "ink": "#1f2b33",
+      "muted": "#60717c",
+      "line": "#d6e0e4",
+      "lineStrong": "#b9c8ce",
+      "focus": "#376a80",
+      "link": "#285e75",
+      "buttonBg": "#e7eef1",
+      "buttonInk": "#1f2b33",
+      "trackBg": "#cbd8dc",
+      "barBg": "#dce7ea",
+      "sections": {
+        "rain": "#5e7285",
+        "clear": "#a8cbda",
+        "sunrise": "#e9b96b",
+        "dew": "#bfe3d8",
+        "neutral": "#80919a"
+      }
+    },
+    "dark": {
+      "page": "#141c22",
+      "surface": "#1b262d",
+      "ink": "#dce7eb",
+      "muted": "#a5b7bf",
+      "line": "#314149",
+      "lineStrong": "#50636c",
+      "focus": "#a8cbda",
+      "link": "#b8d9e4",
+      "buttonBg": "#2a3942",
+      "buttonInk": "#e8f1f4",
+      "trackBg": "#3d4d55",
+      "barBg": "#2b3a42",
+      "sections": {
+        "rain": "#536873",
+        "clear": "#7095a4",
+        "sunrise": "#ad824e",
+        "dew": "#709b91",
+        "neutral": "#71838b"
+      }
+    }
+  },
+  "collections": [
+    {
+      "id": "music",
+      "name": "音乐",
+      "type": "music",
+      "status": "active",
+      "description": "用 Codex 和 MuseScore 做的曲子，附曲谱与制作过程。"
+    },
+    {
+      "id": "writing",
+      "name": "写作",
+      "type": "article",
+      "status": "planned",
+      "description": "之后放文章、随笔和创作笔记。"
+    }
+  ],
+  "comments": {
+    "provider": "giscus",
+    "repo": "",
+    "repoId": "",
+    "category": "",
+    "categoryId": "",
+    "lang": "zh-CN",
+    "discussionsUrl": "",
+    "ratings": {
+      "enabled": true,
+      "category": "",
+      "categoryId": "",
+      "minCount": 3,
+      "dataPath": "data/ratings.json",
+      "excludeAuthors": []
+    }
+  }
+}

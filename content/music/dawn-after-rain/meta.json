@@ -1,0 +1,55 @@
+{
+  "title": "雨后·晨露",
+  "subtitle": "Dawn After Rain",
+  "date": "2026-10-11",
+  "description": "从微湿的雨中黎明走向安静明亮的晨露。",
+  "key": "B 小调 → D 大调",
+  "tempo": "♩=66",
+  "bars": 36,
+  "duration": 135,
+  "instruments": ["钢琴", "竖琴", "钢片琴", "长笛", "小提琴 I", "小提琴 II", "中提琴", "大提琴"],
+  "credits": {"direction": "ctyx", "generation": "Codex + MuseScore"},
+  "sections": [
+    {"name": "积蓄", "start": 0, "end": 30, "color": "rain"},
+    {"name": "雨过天晴", "start": 30, "end": 58, "color": "clear"},
+    {"name": "日出与晨露", "start": 58, "end": 102, "color": "sunrise"},
+    {"name": "尾声", "start": 102, "end": 135, "color": "dew"}
+  ],
+  "envelope": [0.10, 0.12, 0.14, 0.16, 0.21, 0.25, 0.29, 0.33, 0.36, 0.39, 0.34, 0.30, 0.27, 0.24, 0.21, 0.18, 0.38, 0.46, 0.55, 0.67, 0.74, 0.82, 0.88, 0.92, 0.86, 0.80, 0.74, 0.68, 0.58, 0.51, 0.45, 0.38, 0.31, 0.25, 0.18, 0.10],
+  "files": {
+    "audio": "dawn_after_rain.mp3",
+    "score": "dawn_after_rain.pdf",
+    "musicxml": "dawn_after_rain.musicxml",
+    "midi": "dawn_after_rain.mid",
+    "mscz": "dawn_after_rain.mscz",
+    "script": "generate.py",
+    "prompt": "prompt.md"
+  },
+  "sizes": {
+    "audio": 2213092,
+    "score": 102459,
+    "musicxml": 240483,
+    "midi": 5634,
+    "mscz": 84872,
+    "script": 22521
+  },
+  "versions": [
+    {"label": "v1 初稿", "date": "2026-10-11", "input": null, "output": null, "total": null, "note": "首版生成"},
+    {"label": "v2 修订", "date": "2026-10-11", "input": null, "output": null, "total": null, "note": "修正调号、力度、内声部、大提琴与钢琴织体"}
+  ],
+  "palette": {
+    "light": {
+      "rain": "#607789",
+      "clear": "#a4c9d8",
+      "sunrise": "#e6b36b",
+      "dew": "#b9dfd5"
+    },
+    "dark": {
+      "rain": "#536b76",
+      "clear": "#7197a5",
+      "sunrise": "#aa8050",
+      "dew": "#719990"
+    }
+  },
+  "license": "CC BY-NC 4.0"
+}
