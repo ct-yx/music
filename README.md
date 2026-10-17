@@ -21,6 +21,8 @@
 
 ## 新增内容
 
+完整的音乐制作生命周期、曲目目录结构、`meta.json` 填写方式和预览检查见：[音乐制作流程](docs/music-production.md)。
+
 ### 新增音乐
 
 1. 在 `content/music/` 下新建一个 slug 文件夹，加入曲目文件与 `meta.json`。
