@@ -1,0 +1,125 @@
+{
+  "title": "月下潮汐6Luna",
+  "subtitle": "Moonlit Tide",
+  "date": "2026-10-25",
+  "description": "月光下的潮水往返：从夜潮的留白展开到银色高潮，再退回海面微光。",
+  "key": "降 E 大调 / c 小调",
+  "tempo": "♩.=52",
+  "bars": 40,
+  "duration": 92.4,
+  "instruments": [
+    "钢琴",
+    "竖琴",
+    "大提琴",
+    "长笛",
+    "钢片琴"
+  ],
+  "credits": {
+    "direction": "ctyx",
+    "generation": "Codex + MuseScore"
+  },
+  "scoreNote": "独立创作的五乐器编曲，适合试听与总谱阅读。",
+  "sections": [
+    {
+      "name": "夜潮",
+      "start": 0,
+      "end": 18.46,
+      "color": "rain"
+    },
+    {
+      "name": "月影",
+      "start": 18.46,
+      "end": 36.92,
+      "color": "clear"
+    },
+    {
+      "name": "银潮",
+      "start": 36.92,
+      "end": 64.62,
+      "color": "sunrise"
+    },
+    {
+      "name": "回湾",
+      "start": 64.62,
+      "end": 83.08,
+      "color": "clear"
+    },
+    {
+      "name": "余光",
+      "start": 83.08,
+      "end": 92.31,
+      "color": "dew"
+    }
+  ],
+  "envelope": [
+    0.357,
+    0.357,
+    0.357,
+    0.357,
+    0.357,
+    0.357,
+    0.357,
+    0.357,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.693,
+    0.693,
+    0.693,
+    0.693,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.786,
+    0.786,
+    0.786,
+    0.786,
+    0.637,
+    0.637,
+    0.638,
+    0.638,
+    0.643,
+    0.643,
+    0.643,
+    0.643,
+    0.437,
+    0.437,
+    0.386,
+    0.429
+  ],
+  "files": {
+    "audio": "moonlit_tide_6luna.mp3",
+    "score": "moonlit_tide_6luna.pdf",
+    "musicxml": "moonlit_tide_6luna.musicxml",
+    "midi": "moonlit_tide_6luna.mid",
+    "mscz": "moonlit_tide_6luna.mscz",
+    "script": "generate.py",
+    "prompt": "prompt.md"
+  },
+  "versions": [
+    {
+      "label": "v1 原创编曲",
+      "date": "2026-10-25",
+      "input": null,
+      "output": null,
+      "total": null,
+      "note": "独立主题与五乐器总谱"
+    }
+  ],
+  "license": "CC BY-NC 4.0",
+  "sizes": {
+    "audio": 1479618,
+    "score": 97860,
+    "musicxml": 235627,
+    "midi": 9476,
+    "mscz": 99684,
+    "script": 24137,
+    "prompt": 3024
+  }
+}
