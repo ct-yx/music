@@ -1,0 +1,143 @@
+{
+  "title": "雨后·晨露（钢琴版）",
+  "subtitle": "多层钢琴编曲",
+  "date": "2026-10-18",
+  "description": "五层 Acoustic Grand Piano 叠轨，把雨中黎明、云散、日出与晨露收束为一段只供试听的融合编曲。",
+  "key": "B 小调 / D 大调（统一两升号）",
+  "tempo": "♩=66；渐慢至 ♩=46",
+  "bars": 60,
+  "duration": 236,
+  "instruments": [
+    "钢琴·旋律",
+    "钢琴·内声部",
+    "钢琴·琶音",
+    "钢琴·低音",
+    "钢琴·点缀"
+  ],
+  "credits": {
+    "direction": "ctyx",
+    "generation": "Codex + MuseScore"
+  },
+  "sections": [
+    {
+      "name": "引子·雨",
+      "start": 0.0,
+      "end": 14.545,
+      "color": "rain"
+    },
+    {
+      "name": "主歌",
+      "start": 14.545,
+      "end": 43.636,
+      "color": "rain"
+    },
+    {
+      "name": "积蓄",
+      "start": 43.636,
+      "end": 87.273,
+      "color": "clear"
+    },
+    {
+      "name": "雨过天晴",
+      "start": 87.273,
+      "end": 117.377,
+      "color": "clear"
+    },
+    {
+      "name": "日出·副歌",
+      "start": 117.377,
+      "end": 182.436,
+      "color": "sunrise"
+    },
+    {
+      "name": "晨露·尾声",
+      "start": 182.436,
+      "end": 235.775,
+      "color": "dew"
+    }
+  ],
+  "envelope": [
+    0.08,
+    0.092,
+    0.104,
+    0.116,
+    0.16,
+    0.178,
+    0.196,
+    0.214,
+    0.232,
+    0.25,
+    0.268,
+    0.286,
+    0.28,
+    0.32,
+    0.36,
+    0.4,
+    0.44,
+    0.48,
+    0.52,
+    0.56,
+    0.6,
+    0.64,
+    0.68,
+    0.72,
+    0.66,
+    0.615,
+    0.57,
+    0.525,
+    0.48,
+    0.435,
+    0.39,
+    0.345,
+    0.56,
+    0.595,
+    0.63,
+    0.665,
+    0.7,
+    0.735,
+    0.77,
+    0.805,
+    0.84,
+    0.94,
+    0.952,
+    0.964,
+    0.976,
+    0.988,
+    0.88,
+    0.78,
+    0.7,
+    0.655,
+    0.61,
+    0.565,
+    0.52,
+    0.475,
+    0.38,
+    0.325,
+    0.27,
+    0.215,
+    0.16,
+    0.105
+  ],
+  "scoreNote": "多层钢琴合成编曲，仅供试听，不适合单人演奏。",
+  "files": {
+    "audio": "dawn_after_rain_piano.mp3",
+    "score": "dawn_after_rain_piano.pdf",
+    "musicxml": "dawn_after_rain_piano.musicxml",
+    "midi": "dawn_after_rain_piano.mid",
+    "mscz": "dawn_after_rain_piano.mscz",
+    "script": "generate_piano.py",
+    "prompt": "prompt.md"
+  },
+  "versions": [
+    {
+      "label": "v1 纯钢琴融合版",
+      "date": "2026-10-18",
+      "input": null,
+      "output": null,
+      "total": null,
+      "token": null,
+      "note": "60 小节五层钢琴试听编曲"
+    }
+  ],
+  "license": "CC BY-NC 4.0"
+}
